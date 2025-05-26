@@ -1,0 +1,52 @@
+# node modules
+node_modules/
+
+# production build
+build/
+dist/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-generated files
+*.swp
+
+# coverage reports
+coverage/
+
+# optional npm cache directory
+.npm/
+
+# eslint cache
+.eslintcache
+
+# parcel-bundler cache (if you use Parcel)
+.cache/
+
+# testing
+jest-test-results.json
+
+# local dependencies for pnpm
+.pnpm/
+
+# react native (if ever used in the future)
+.expo/
